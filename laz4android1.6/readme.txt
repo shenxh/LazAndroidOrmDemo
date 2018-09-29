@@ -1,4 +1,4 @@
-laz4android1.6.0 is too big£¬please download from https://sourceforge.net/projects/laz4android/files , select download "laz4android1.6.0-FPC3.0.0.exe" or "laz4android1.6.0-FPC3.0.0.7z" to install.
+laz4android1.6.0 is too bigï¼Œplease download from https://sourceforge.net/projects/laz4android/files , select download "laz4android1.6.0-FPC3.0.0.exe" or "laz4android1.6.0-FPC3.0.0.7z" to install.
 
-ÒòÎªgithubµÄÏŞÖÆ£¬ÎÄ¼ş²»ÄÜ³¬¹ı25M£¬ËùÒÔÇë´ÓÕâ¸öµØÖ·ÏÂÔØlaz4android1.6.0£¬https://sourceforge.net/projects/laz4android/files£¬ÇëÑ¡ÔñÏÂÔØ¡°laz4android1.6.0-FPC3.0.0.exe¡± »òÕß ¡°laz4android1.6.0-FPC3.0.0.7z¡±¡£
-ÖĞ¹ú¹úÄÚÓÃ»§¿ÉÒÔ´Ó°Ù¶ÈÅÌÏÂÔØ£¬µØÖ·ÈçÏÂ£ºlaz4android1.6.0-FPC3.0.0.7z https://pan.baidu.com/s/1sjWhpTj , laz4android1.6.0-FPC3.0.0.exe https://pan.baidu.com/s/1baF9fC
+å› ä¸ºgithubçš„é™åˆ¶ï¼Œæ–‡ä»¶ä¸èƒ½è¶…è¿‡25Mï¼Œæ‰€ä»¥è¯·ä»è¿™ä¸ªåœ°å€ä¸‹è½½laz4android1.6.0ï¼Œhttps://sourceforge.net/projects/laz4android/files , è¯·é€‰æ‹©ä¸‹è½½â€œlaz4android1.6.0-FPC3.0.0.exeâ€ æˆ–è€… â€œlaz4android1.6.0-FPC3.0.0.7zâ€ã€‚
+ä¸­å›½å›½å†…ç”¨æˆ·å¯ä»¥ä»ç™¾åº¦ç›˜ä¸‹è½½ï¼Œåœ°å€å¦‚ä¸‹ï¼šlaz4android1.6.0-FPC3.0.0.7z https://pan.baidu.com/s/1sjWhpTj ,laz4android1.6.0-FPC3.0.0.exe https://pan.baidu.com/s/1baF9fC
