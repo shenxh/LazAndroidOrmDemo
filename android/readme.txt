@@ -1,3 +1,3 @@
 Android client App
 
-°²×¿¿Í»§¶ËAPP
+å®‰å“å®¢æˆ·ç«¯APP
