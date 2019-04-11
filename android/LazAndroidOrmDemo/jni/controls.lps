@@ -9,8 +9,7 @@
         <Filename Value="controls.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="586"/>
-        <CursorPos X="26" Y="635"/>
+        <CursorPos X="25" Y="635"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -34,6 +33,7 @@
         <Filename Value="ulogin.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
         <CustomData Count="1">
           <Item0 Name="jControls" Value="jButton;jCheckBox;jEditText;jForm;jImageView;jPanel;jPreferences;jTextView"/>
         </CustomData>
@@ -45,28 +45,10 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit2>
       <Unit3>
-        <Filename Value="..\..\..\..\components\LAMW\android_wizard\uformandroidproject.pas"/>
-        <UnitName Value="uFormAndroidProject"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="4"/>
-        <UsageCount Value="10"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="..\..\..\..\components\LAMW\android_wizard\androidthemes.pas"/>
-        <UnitName Value="AndroidThemes"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="43"/>
-        <UsageCount Value="10"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="..\..\..\..\components\LAMW\android_bridges\Laz_And_Controls.pas"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
-      </Unit5>
-      <Unit6>
         <Filename Value="uabout.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
         <CustomData Count="1">
           <Item0 Name="jControls" Value="jForm;jImageView;jPanel;jTextView"/>
         </CustomData>
@@ -76,8 +58,8 @@
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit6>
-      <Unit7>
+      </Unit3>
+      <Unit4>
         <Filename Value="ucommon.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
@@ -86,6 +68,25 @@
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\components\LAMW\android_wizard\uformandroidproject.pas"/>
+        <UnitName Value="uFormAndroidProject"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\components\LAMW\android_wizard\androidthemes.pas"/>
+        <UnitName Value="AndroidThemes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\components\LAMW\android_bridges\Laz_And_Controls.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
       </Unit7>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">

@@ -31,8 +31,6 @@ object frmLogin: TfrmLogin
     BackgroundColor = colbrDeepSkyBlue
     MinPinchZoomFactor = 0.25
     MaxPinchZoomFactor = 4
-    left = 28
-    top = 28
     object jImageView1: jImageView
       Left = 415
       Top = 5
@@ -53,9 +51,9 @@ object frmLogin: TfrmLogin
       ImageScaleType = scaleCenter
     end
     object jTextView1: jTextView
-      Left = 209
+      Left = 199
       Top = 17
-      Width = 50
+      Width = 70
       Height = 24
       MarginLeft = 5
       MarginTop = 5
@@ -67,7 +65,7 @@ object frmLogin: TfrmLogin
       PosRelativeToParent = [rpCenterInParent, rpCenterVertical]
       LayoutParamWidth = lpWrapContent
       LayoutParamHeight = lpWrapContent
-      Text = 'LOGIN'
+      Text = 'SIGN IN'
       Alignment = taLeft
       Enabled = True
       BackgroundColor = colbrDefault
@@ -168,7 +166,7 @@ object frmLogin: TfrmLogin
     PosRelativeToParent = [rpCenterInParent]
     LayoutParamWidth = lpMatchParent
     LayoutParamHeight = lpWrapContent
-    Text = 'LOGIN'
+    Text = 'Sign In'
     BackgroundColor = colbrDeepSkyBlue
     FontColor = colbrWhite
     FontSize = 0
@@ -270,8 +268,6 @@ object frmLogin: TfrmLogin
     BackgroundColor = colbrDefault
     MinPinchZoomFactor = 0.25
     MaxPinchZoomFactor = 4
-    left = 56
-    top = 56
     object jCheckBox1: jCheckBox
       Left = 170
       Top = 5
