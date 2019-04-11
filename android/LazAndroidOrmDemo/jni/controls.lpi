@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="controls"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <CustomData Count="6">
+      <Item0 Name="LAMW" Value="GUI"/>
+      <Item1 Name="LamwVersion" Value="0.7"/>
+      <Item2 Name="NdkPath" Value="D:\android-ndk-r10e\"/>
+      <Item3 Name="Package" Value="cn.questsoft.lazandroidormdemo"/>
+      <Item4 Name="SdkPath" Value="F:\XP\laz4android1.6-AIO\sdk\"/>
+      <Item5 Name="StartModule" Value="frmMain"/>
+    </CustomData>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="tfpandroidbridge_pack"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="controls.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jDialogYN;jForm;jImageFileManager;jImageView;jListView;jPanel;jTextView"/>
+        </CustomData>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ulogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jButton;jCheckBox;jEditText;jForm;jImageView;jPanel;jPreferences;jTextView"/>
+        </CustomData>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jForm;jImageView;jPanel;jTextView"/>
+        </CustomData>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ucommon.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="..\libs\armeabi\libcontrols"/>
+    </Target>
+    <SearchPaths>
+      <Libraries Value="D:\android-ndk-r10e\platforms\android-14\arch-arm\usr\lib\;D:\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.9\"/>
+      <UnitOutputDirectory Value="..\obj\controls"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+        <CStyleMacros Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="android"/>
+      <Optimizations>
+        <OptimizationLevel Value="3"/>
+      </Optimizations>
+      <SmallerCode Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <ExecutableType Value="Library"/>
+      </Options>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-Xd -CfSoft -CpARMV6"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
