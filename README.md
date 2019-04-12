@@ -28,5 +28,5 @@ https://github.com/jmpessoa/lazandroidmodulewizard
 ![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221444.png)
 ![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221452.png)
 ![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221501.png)
-![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221115.png)
+![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221515.png)
 
