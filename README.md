@@ -1,6 +1,6 @@
 # LazAndroidOrmDemo
 A Lazarus Android mORMot example.
-The backend database uses MariaDB ，Android client is developed using laz4android1.6 + mORMot .
+The backend database uses MariaDB ，Android client is developed using laz4android1.6 + mORMot + LAMW .
 The intermediate services layer is developed using laz4android1.6 + mORMot + ZeosDBO.
 This example is based on an android application that has been running for 3 years. The image data uploaded in the background has exceeded 90G and is still running normally.
 Now I'm going to open source it.
@@ -29,4 +29,5 @@ https://github.com/jmpessoa/lazandroidmodulewizard
 ![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221452.png)
 ![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221501.png)
 ![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190411_221515.png)
+![image](https://github.com/shenxh/LazAndroidOrmDemo/blob/master/screenshots/20190412_210643.png)
 
