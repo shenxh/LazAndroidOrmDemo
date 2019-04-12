@@ -1,10 +1,10 @@
 {
-  // about app form
+  // Input Info form
   // A Lazarus Android ORM Demo
   // https://github.com/shenxh/LazAndroidOrmDemo
   // Shen Xue Hua , 1339838080@qq.com
 }
-unit uabout;
+unit uinputinfo;
 
 {$mode delphi}
 
@@ -15,17 +15,12 @@ uses
   
 type
 
-  { TfrmAbout }
+  { TfrmInputInfo }
 
-  TfrmAbout = class(jForm)
+  TfrmInputInfo = class(jForm)
     jImageView2: jImageView;
-    jImageView3: jImageView;
     jPanel1: jPanel;
     jTextView1: jTextView;
-    jTextView2: jTextView;
-    jTextView3: jTextView;
-    jTextView4: jTextView;
-    jTextView5: jTextView;
     procedure jImageView2Click(Sender: TObject);
   private
     {private declarations}
@@ -34,17 +29,18 @@ type
   end;
 
 var
-  frmAbout: TfrmAbout;
+  frmInputInfo: TfrmInputInfo;
 
 implementation
   
 {$R *.lfm}
   
 
-{ TfrmAbout }
+{ TfrmInputInfo }
 
-procedure TfrmAbout.jImageView2Click(Sender: TObject);
+procedure TfrmInputInfo.jImageView2Click(Sender: TObject);
 begin
+  //Close
   Self.Close;
 end;
 

@@ -9,7 +9,8 @@ library controls;  //[by Lamw: Lazarus Android Module Wizard: 2019/4/8 22:30:44]
   
 uses
   Classes, SysUtils, And_jni, And_jni_Bridge, AndroidWidget, Laz_And_Controls,
-  Laz_And_Controls_Events, umain, ulogin, uabout, ucommon;
+  Laz_And_Controls_Events, umain, ulogin, uabout, ucommon, umysettings,
+uinputinfo, upersonnel, uother, umyphoto;
   
 {%region /fold 'LAMW generated code'}
 

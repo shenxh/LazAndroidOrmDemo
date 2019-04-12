@@ -55,7 +55,7 @@ var
 implementation
 
 uses
-  ucommon,uabout;
+  ucommon,uabout,umysettings,uinputinfo,upersonnel,uother,umyphoto;
   
 {$R *.lfm}
   
@@ -77,6 +77,7 @@ begin
     jListViewHome.Clear;
     jListViewHome.Add('Input Info','|',colbrDefault,18,wgNone,'',jImageFileManager1.LoadFromAssets('edit1.png'));
     jListViewHome.Add('Personnel','|',colbrDefault,18,wgNone,'',jImageFileManager1.LoadFromAssets('personnel1.png'));
+    jListViewHome.Add('Other','|',colbrDefault,18,wgNone,'',jImageFileManager1.LoadFromAssets('otherlist1.png'));
 
     //Mine - Menu List
     jListViewMine.Clear;
@@ -89,7 +90,7 @@ end;
 
 procedure TfrmMain.frmMainCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
-  //
+  //Exit
   jDialogYN1.Show;
   if iClose then CanClose:=true else CanClose:=false;
 
@@ -136,6 +137,44 @@ procedure TfrmMain.jListViewHomeClickItem(Sender: TObject; itemIndex: integer;
 begin
   //Click Home Menu
   //ShowMessage(itemCaption);
+    case itemIndex of
+      0:begin
+        //Input Info
+        if frmInputInfo = nil then
+        begin
+          gApp.CreateForm(TfrmInputInfo, frmInputInfo);
+          frmInputInfo.Init(gApp);
+        end
+        else
+        begin
+          frmInputInfo.Show;
+        end;
+      end;
+      1:begin
+        //Personnel
+        if frmPersonnel = nil then
+        begin
+          gApp.CreateForm(TfrmPersonnel, frmPersonnel);
+          frmPersonnel.Init(gApp);
+        end
+        else
+        begin
+          frmPersonnel.Show;
+        end;
+      end;
+      2:begin
+        //Other
+        if frmOther = nil then
+        begin
+          gApp.CreateForm(TfrmOther, frmOther);
+          frmOther.Init(gApp);
+        end
+        else
+        begin
+          frmOther.Show;
+        end;
+      end;
+    end;
 end;
 
 procedure TfrmMain.jListViewMineClickItem(Sender: TObject; itemIndex: integer;
@@ -146,9 +185,27 @@ begin
   Case itemIndex of
     0:begin
        //My Photo
+      if frmMyPhoto = nil then
+      begin
+        gApp.CreateForm(TfrmMyPhoto, frmMyPhoto);
+        frmMyPhoto.Init(gApp);
+      end
+      else
+      begin
+        frmMyPhoto.Show;
+      end;
     end;
     1:begin
        //My Settings
+      if frmSettings = nil then
+      begin
+        gApp.CreateForm(TfrmSettings, frmSettings);
+        frmSettings.Init(gApp);
+      end
+      else
+      begin
+        frmSettings.Show;
+      end;
     end;
     2:begin
       //About APP

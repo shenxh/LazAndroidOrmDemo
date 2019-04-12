@@ -45,7 +45,7 @@
         <PackageName Value="tfpandroidbridge_pack"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="10">
       <Unit0>
         <Filename Value="controls.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -81,6 +81,46 @@
         <Filename Value="ucommon.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="umysettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSettings"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jForm;jImageView;jPanel;jTextView"/>
+        </CustomData>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uinputinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmInputInfo"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jForm;jImageView;jPanel;jTextView"/>
+        </CustomData>
+      </Unit6>
+      <Unit7>
+        <Filename Value="upersonnel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPersonnel"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jForm;jImageView;jPanel;jTextView"/>
+        </CustomData>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uother.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmOther"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jForm;jImageView;jPanel;jTextView"/>
+        </CustomData>
+      </Unit8>
+      <Unit9>
+        <Filename Value="umyphoto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMyPhoto"/>
+        <CustomData Count="1">
+          <Item0 Name="jControls" Value="jForm;jImageView;jPanel;jTextView"/>
+        </CustomData>
+      </Unit9>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

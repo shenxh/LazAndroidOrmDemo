@@ -1,10 +1,10 @@
 {
-  // about app form
+  // my settings form
   // A Lazarus Android ORM Demo
   // https://github.com/shenxh/LazAndroidOrmDemo
   // Shen Xue Hua , 1339838080@qq.com
 }
-unit uabout;
+unit umysettings;
 
 {$mode delphi}
 
@@ -15,17 +15,12 @@ uses
   
 type
 
-  { TfrmAbout }
+  { TfrmSettings }
 
-  TfrmAbout = class(jForm)
+  TfrmSettings = class(jForm)
     jImageView2: jImageView;
-    jImageView3: jImageView;
     jPanel1: jPanel;
     jTextView1: jTextView;
-    jTextView2: jTextView;
-    jTextView3: jTextView;
-    jTextView4: jTextView;
-    jTextView5: jTextView;
     procedure jImageView2Click(Sender: TObject);
   private
     {private declarations}
@@ -34,17 +29,18 @@ type
   end;
 
 var
-  frmAbout: TfrmAbout;
+  frmSettings: TfrmSettings;
 
 implementation
   
 {$R *.lfm}
   
 
-{ TfrmAbout }
+{ TfrmSettings }
 
-procedure TfrmAbout.jImageView2Click(Sender: TObject);
+procedure TfrmSettings.jImageView2Click(Sender: TObject);
 begin
+  //close
   Self.Close;
 end;
 

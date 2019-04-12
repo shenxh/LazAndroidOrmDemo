@@ -1,10 +1,10 @@
 {
-  // about app form
+  // My Photo form
   // A Lazarus Android ORM Demo
   // https://github.com/shenxh/LazAndroidOrmDemo
   // Shen Xue Hua , 1339838080@qq.com
 }
-unit uabout;
+unit umyphoto;
 
 {$mode delphi}
 
@@ -15,17 +15,12 @@ uses
   
 type
 
-  { TfrmAbout }
+  { TfrmMyPhoto }
 
-  TfrmAbout = class(jForm)
+  TfrmMyPhoto = class(jForm)
     jImageView2: jImageView;
-    jImageView3: jImageView;
     jPanel1: jPanel;
     jTextView1: jTextView;
-    jTextView2: jTextView;
-    jTextView3: jTextView;
-    jTextView4: jTextView;
-    jTextView5: jTextView;
     procedure jImageView2Click(Sender: TObject);
   private
     {private declarations}
@@ -34,17 +29,18 @@ type
   end;
 
 var
-  frmAbout: TfrmAbout;
+  frmMyPhoto: TfrmMyPhoto;
 
 implementation
   
 {$R *.lfm}
   
 
-{ TfrmAbout }
+{ TfrmMyPhoto }
 
-procedure TfrmAbout.jImageView2Click(Sender: TObject);
+procedure TfrmMyPhoto.jImageView2Click(Sender: TObject);
 begin
+  //close
   Self.Close;
 end;
 
